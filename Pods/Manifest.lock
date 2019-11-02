@@ -1,0 +1,50 @@
+PODS:
+  - ESTabBarController (0.2)
+  - MaterialComponents/AnimationTiming (93.2.0)
+  - MaterialComponents/Cards (93.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Elevation (93.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (93.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Color (93.2.0)
+  - MaterialComponents/private/Icons/Base (93.2.0)
+  - MaterialComponents/private/Icons/ic_check_circle (93.2.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Math (93.2.0)
+  - MaterialComponents/Ripple (93.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (93.2.0)
+  - MaterialComponents/ShadowLayer (93.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (93.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+
+DEPENDENCIES:
+  - ESTabBarController
+  - MaterialComponents/Cards
+
+SPEC REPOS:
+  trunk:
+    - ESTabBarController
+    - MaterialComponents
+
+SPEC CHECKSUMS:
+  ESTabBarController: e82ac0b135bec16fb646ac1da4ac8953fcd927da
+  MaterialComponents: 2acbd2e1f58788fc3435acb48606a60d42551d4c
+
+PODFILE CHECKSUM: 4ef2f8cccdec12dbe764108d19aadf91990ac064
+
+COCOAPODS: 1.8.4

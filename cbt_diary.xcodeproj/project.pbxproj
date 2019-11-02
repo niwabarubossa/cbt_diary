@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,24 @@
 		542F02D52367C14F00C20E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542F02D32367C14F00C20E91 /* Main.storyboard */; };
 		542F02D72367C15300C20E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542F02D62367C15300C20E91 /* Assets.xcassets */; };
 		542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542F02D82367C15300C20E91 /* LaunchScreen.storyboard */; };
+		542F02E42367D34900C20E91 /* TopPagePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F02E32367D34900C20E91 /* TopPagePanelView.swift */; };
+		542F02E62367D76600C20E91 /* choushinki.png in Resources */ = {isa = PBXBuildFile; fileRef = 542F02E52367D76600C20E91 /* choushinki.png */; };
+		542F02E82367DA0900C20E91 /* exposure.png in Resources */ = {isa = PBXBuildFile; fileRef = 542F02E72367DA0800C20E91 /* exposure.png */; };
+		542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 542F02E92367DA5F00C20E91 /* trap_sample.png */; };
+		5441B4BC2369AE9C003E2B15 /* CbtSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4BB2369AE9C003E2B15 /* CbtSheetPageViewController.swift */; };
+		5441B4BE2369AEBB003E2B15 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4BD2369AEBB003E2B15 /* MyPageViewController.swift */; };
+		5441B4C02369AECE003E2B15 /* AboutCbtPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4BF2369AECE003E2B15 /* AboutCbtPageViewController.swift */; };
+		5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */; };
+		5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C32369B054003E2B15 /* RootViewController.swift */; };
+		5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */; };
+		5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B90E236BFAB400295F57 /* SheetCardView.swift */; };
+		5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5457B910236BFAC300295F57 /* SheetCardView.xib */; };
+		5468A4122369181600CD4AE1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A4112369181600CD4AE1 /* View.xib */; };
+		5468A4142369195800CD4AE1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A4132369195800CD4AE1 /* View.swift */; };
+		5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */; };
+		5468A418236922F400CD4AE1 /* BehavioralExperiment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */; };
+		5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A41923693AB100CD4AE1 /* TopPageViewController.swift */; };
+		A322ECFD6F93C786E8103606 /* Pods_cbt_diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,26 @@
 		542F02D62367C15300C20E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542F02D92367C15300C20E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542F02DB2367C15300C20E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542F02E32367D34900C20E91 /* TopPagePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPagePanelView.swift; sourceTree = "<group>"; };
+		542F02E52367D76600C20E91 /* choushinki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choushinki.png; sourceTree = "<group>"; };
+		542F02E72367DA0800C20E91 /* exposure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exposure.png; sourceTree = "<group>"; };
+		542F02E92367DA5F00C20E91 /* trap_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trap_sample.png; sourceTree = "<group>"; };
+		5441B4BB2369AE9C003E2B15 /* CbtSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CbtSheetPageViewController.swift; sourceTree = "<group>"; };
+		5441B4BD2369AEBB003E2B15 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		5441B4BF2369AECE003E2B15 /* AboutCbtPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCbtPageViewController.swift; sourceTree = "<group>"; };
+		5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		5441B4C32369B054003E2B15 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5457B90E236BFAB400295F57 /* SheetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCardView.swift; sourceTree = "<group>"; };
+		5457B910236BFAC300295F57 /* SheetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetCardView.xib; sourceTree = "<group>"; };
+		5468A4112369181600CD4AE1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		5468A4132369195800CD4AE1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralExperiment.swift; sourceTree = "<group>"; };
+		5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BehavioralExperiment.xib; sourceTree = "<group>"; };
+		5468A41923693AB100CD4AE1 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
+		5921CD0060BEDAC27283CF74 /* Pods-cbt_diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.debug.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.debug.xcconfig"; sourceTree = "<group>"; };
+		9D555DA2F09EA2B972E9B796 /* Pods-cbt_diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.release.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.release.xcconfig"; sourceTree = "<group>"; };
+		EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cbt_diary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A322ECFD6F93C786E8103606 /* Pods_cbt_diary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D7548BD5DD475273365779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		542F02C32367C14F00C20E91 = {
 			isa = PBXGroup;
 			children = (
 				542F02CE2367C14F00C20E91 /* cbt_diary */,
 				542F02CD2367C14F00C20E91 /* Products */,
+				B3AD2EDD31942AC36BC29B01 /* Pods */,
+				36D7548BD5DD475273365779 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,40 @@
 		542F02CE2367C14F00C20E91 /* cbt_diary */ = {
 			isa = PBXGroup;
 			children = (
+				5441B4BF2369AECE003E2B15 /* AboutCbtPageViewController.swift */,
 				542F02CF2367C14F00C20E91 /* AppDelegate.swift */,
 				542F02D12367C14F00C20E91 /* ViewController.swift */,
 				542F02D32367C14F00C20E91 /* Main.storyboard */,
+				542F02E52367D76600C20E91 /* choushinki.png */,
 				542F02D62367C15300C20E91 /* Assets.xcassets */,
+				542F02E72367DA0800C20E91 /* exposure.png */,
+				542F02E92367DA5F00C20E91 /* trap_sample.png */,
 				542F02D82367C15300C20E91 /* LaunchScreen.storyboard */,
 				542F02DB2367C15300C20E91 /* Info.plist */,
+				542F02E32367D34900C20E91 /* TopPagePanelView.swift */,
+				5468A4112369181600CD4AE1 /* View.xib */,
+				5468A4132369195800CD4AE1 /* View.swift */,
+				5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */,
+				5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */,
+				5468A41923693AB100CD4AE1 /* TopPageViewController.swift */,
+				5441B4BB2369AE9C003E2B15 /* CbtSheetPageViewController.swift */,
+				5441B4BD2369AEBB003E2B15 /* MyPageViewController.swift */,
+				5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */,
+				5441B4C32369B054003E2B15 /* RootViewController.swift */,
+				5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */,
+				5457B90E236BFAB400295F57 /* SheetCardView.swift */,
+				5457B910236BFAC300295F57 /* SheetCardView.xib */,
 			);
 			path = cbt_diary;
+			sourceTree = "<group>";
+		};
+		B3AD2EDD31942AC36BC29B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5921CD0060BEDAC27283CF74 /* Pods-cbt_diary.debug.xcconfig */,
+				9D555DA2F09EA2B972E9B796 /* Pods-cbt_diary.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 542F02DE2367C15300C20E91 /* Build configuration list for PBXNativeTarget "cbt_diary" */;
 			buildPhases = (
+				F5F3A4D59B50F0AF53F41675 /* [CP] Check Pods Manifest.lock */,
 				542F02C82367C14F00C20E91 /* Sources */,
 				542F02C92367C14F00C20E91 /* Frameworks */,
 				542F02CA2367C14F00C20E91 /* Resources */,
+				98D57499DE9C36E28F6D95F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +199,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468A4122369181600CD4AE1 /* View.xib in Resources */,
 				542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */,
 				542F02D72367C15300C20E91 /* Assets.xcassets in Resources */,
+				542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */,
+				5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */,
+				542F02E62367D76600C20E91 /* choushinki.png in Resources */,
 				542F02D52367C14F00C20E91 /* Main.storyboard in Resources */,
+				542F02E82367DA0900C20E91 /* exposure.png in Resources */,
+				5468A418236922F400CD4AE1 /* BehavioralExperiment.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98D57499DE9C36E28F6D95F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cbt_diary/Pods-cbt_diary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cbt_diary/Pods-cbt_diary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cbt_diary/Pods-cbt_diary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F3A4D59B50F0AF53F41675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cbt_diary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		542F02C82367C14F00C20E91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468A4142369195800CD4AE1 /* View.swift in Sources */,
+				5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */,
+				5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */,
 				542F02D22367C14F00C20E91 /* ViewController.swift in Sources */,
+				5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */,
 				542F02D02367C14F00C20E91 /* AppDelegate.swift in Sources */,
+				542F02E42367D34900C20E91 /* TopPagePanelView.swift in Sources */,
+				5441B4C02369AECE003E2B15 /* AboutCbtPageViewController.swift in Sources */,
+				5441B4BC2369AE9C003E2B15 /* CbtSheetPageViewController.swift in Sources */,
+				5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */,
+				5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */,
+				5441B4BE2369AEBB003E2B15 /* MyPageViewController.swift in Sources */,
+				5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +416,7 @@
 		};
 		542F02DF2367C15300C20E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5921CD0060BEDAC27283CF74 /* Pods-cbt_diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +435,7 @@
 		};
 		542F02E02367C15300C20E91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D555DA2F09EA2B972E9B796 /* Pods-cbt_diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -24,6 +24,7 @@
 		5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */; };
 		5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B90E236BFAB400295F57 /* SheetCardView.swift */; };
 		5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5457B910236BFAC300295F57 /* SheetCardView.xib */; };
+		5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */; };
 		5468A4122369181600CD4AE1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A4112369181600CD4AE1 /* View.xib */; };
 		5468A4142369195800CD4AE1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A4132369195800CD4AE1 /* View.swift */; };
 		5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */; };
@@ -52,6 +53,7 @@
 		5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5457B90E236BFAB400295F57 /* SheetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCardView.swift; sourceTree = "<group>"; };
 		5457B910236BFAC300295F57 /* SheetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetCardView.xib; sourceTree = "<group>"; };
+		5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoThinkingSheetPageViewController.swift; sourceTree = "<group>"; };
 		5468A4112369181600CD4AE1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5468A4132369195800CD4AE1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralExperiment.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */,
 				5457B90E236BFAB400295F57 /* SheetCardView.swift */,
 				5457B910236BFAC300295F57 /* SheetCardView.xib */,
+				5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */,
 			);
 			path = cbt_diary;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */,
 				5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */,
 				5441B4BE2369AEBB003E2B15 /* MyPageViewController.swift in Sources */,
+				5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */,
 				5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

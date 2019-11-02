@@ -12,8 +12,13 @@ class MyPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.loadTemplate()
+    }
+    
+    func loadTemplate(){
+        let view = Bundle.main.loadNibNamed("SheetCardView", owner: SheetCardView(), options: nil)?.first as! UIView
+        view.frame = self.view.bounds
+        self.view.addSubview(view)
     }
     
 

@@ -1,0 +1,6 @@
+framework module Pods_cbt_diary {
+  umbrella header "Pods-cbt_diary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -23,6 +23,9 @@
 		5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C32369B054003E2B15 /* RootViewController.swift */; };
 		5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */; };
 		5449C7C8236E871E008BD6B0 /* test_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5449C7C7236E871E008BD6B0 /* test_background.jpg */; };
+		5449C7CB236EA4F2008BD6B0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */; };
+		5449C7CC236EA4F2008BD6B0 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */; };
+		5449C7CE236EA6A2008BD6B0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449C7CD236EA6A2008BD6B0 /* Model.swift */; };
 		5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B90E236BFAB400295F57 /* SheetCardView.swift */; };
 		5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5457B910236BFAC300295F57 /* SheetCardView.xib */; };
 		5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */; };
@@ -53,6 +56,9 @@
 		5441B4C32369B054003E2B15 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5449C7C7236E871E008BD6B0 /* test_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_background.jpg; sourceTree = "<group>"; };
+		5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		5449C7CD236EA6A2008BD6B0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5457B90E236BFAB400295F57 /* SheetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCardView.swift; sourceTree = "<group>"; };
 		5457B910236BFAC300295F57 /* SheetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetCardView.xib; sourceTree = "<group>"; };
 		5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoThinkingSheetPageViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 				5457B90E236BFAB400295F57 /* SheetCardView.swift */,
 				5457B910236BFAC300295F57 /* SheetCardView.xib */,
 				5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */,
+				5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */,
+				5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */,
+				5449C7CD236EA6A2008BD6B0 /* Model.swift */,
 			);
 			path = cbt_diary;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5468A4122369181600CD4AE1 /* View.xib in Resources */,
+				5449C7CC236EA4F2008BD6B0 /* CustomCell.xib in Resources */,
 				542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */,
 				542F02D72367C15300C20E91 /* Assets.xcassets in Resources */,
 				542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */,
@@ -274,6 +284,8 @@
 				5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */,
 				542F02D02367C14F00C20E91 /* AppDelegate.swift in Sources */,
 				542F02E42367D34900C20E91 /* TopPagePanelView.swift in Sources */,
+				5449C7CE236EA6A2008BD6B0 /* Model.swift in Sources */,
+				5449C7CB236EA4F2008BD6B0 /* CustomCell.swift in Sources */,
 				5441B4C02369AECE003E2B15 /* AboutCbtPageViewController.swift in Sources */,
 				5441B4BC2369AE9C003E2B15 /* CbtSheetPageViewController.swift in Sources */,
 				5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */,

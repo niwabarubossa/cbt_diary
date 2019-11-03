@@ -8,23 +8,35 @@
 
 import UIKit
 
-class AboutCbtPageViewController: UIViewController {
+class AboutCbtPageViewController: UIViewController, UICollectionViewDataSource {
+    
+    let models = Model.createModels()
 
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        collectionView.dataSource = self as! UICollectionViewDataSource
+        
+        collectionView.register(UINib(nibName: "CustomCell", bundle: nil), forCellWithReuseIdentifier: "CustomCell")
+        // セルの大きさを設定
+        let layout = UICollectionViewFlowLayout()
+        layout.itemSize = CGSize(width: collectionView.frame.width, height: 100)
+        collectionView.collectionViewLayout = layout
+        print("\(models)")
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return models.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath)
+        
+        if let cell = cell as? CustomCell {
+            cell.setupCell(model: models[indexPath.row])
+        }
+        
+        return cell
     }
-    */
-
+    
 }

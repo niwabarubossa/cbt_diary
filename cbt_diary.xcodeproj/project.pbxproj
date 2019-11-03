@@ -22,6 +22,7 @@
 		5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */; };
 		5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C32369B054003E2B15 /* RootViewController.swift */; };
 		5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */; };
+		5449C7C8236E871E008BD6B0 /* test_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5449C7C7236E871E008BD6B0 /* test_background.jpg */; };
 		5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B90E236BFAB400295F57 /* SheetCardView.swift */; };
 		5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5457B910236BFAC300295F57 /* SheetCardView.xib */; };
 		5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */; };
@@ -51,6 +52,7 @@
 		5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		5441B4C32369B054003E2B15 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5449C7C7236E871E008BD6B0 /* test_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_background.jpg; sourceTree = "<group>"; };
 		5457B90E236BFAB400295F57 /* SheetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCardView.swift; sourceTree = "<group>"; };
 		5457B910236BFAC300295F57 /* SheetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetCardView.xib; sourceTree = "<group>"; };
 		5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoThinkingSheetPageViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		542F02CE2367C14F00C20E91 /* cbt_diary */ = {
 			isa = PBXGroup;
 			children = (
+				5449C7C7236E871E008BD6B0 /* test_background.jpg */,
 				5441B4BF2369AECE003E2B15 /* AboutCbtPageViewController.swift */,
 				542F02CF2367C14F00C20E91 /* AppDelegate.swift */,
 				542F02D12367C14F00C20E91 /* ViewController.swift */,
@@ -209,6 +212,7 @@
 				5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */,
 				542F02E62367D76600C20E91 /* choushinki.png in Resources */,
 				542F02D52367C14F00C20E91 /* Main.storyboard in Resources */,
+				5449C7C8236E871E008BD6B0 /* test_background.jpg in Resources */,
 				542F02E82367DA0900C20E91 /* exposure.png in Resources */,
 				5468A418236922F400CD4AE1 /* BehavioralExperiment.xib in Resources */,
 			);

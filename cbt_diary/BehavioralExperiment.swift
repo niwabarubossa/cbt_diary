@@ -1,11 +1,3 @@
-//
-//  BehavioralExperiment.swift
-//  cbt_diary
-//
-//  Created by 丹羽遼吾 on 2019/10/30.
-//  Copyright © 2019 ryogo.niwa. All rights reserved.
-//
-
 import UIKit
 
 @IBDesignable
@@ -34,6 +26,11 @@ class BehavioralExperiment: UIView {
     func setBehaviorLabel() {
         self.behaviorLabel.numberOfLines = 0
     }
+    
+    func testFunction(title:String){
+        behaviorLabel.text = title
+    }
+    
 }
 
 @IBDesignable

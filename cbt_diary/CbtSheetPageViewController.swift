@@ -13,6 +13,17 @@ class CbtSheetPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        let bundle = Bundle(for: type(of: self))
+//        let nib = UINib(nibName: "", bundle: bundle)
+//        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
+//        view.frame = self.bounds
+        let myXib = Bundle.main.loadNibNamed("BehavioralExperiment", owner: BehavioralExperiment(), options: nil)?.first as! UIView
+        myXib.frame = self.view.bounds
+        if let myXib = myXib as? BehavioralExperiment {
+            myXib.testFunction(title: "素晴らしい！成功だ！")
+        }
+        self.view.addSubview(myXib)
+
         // Do any additional setup after loading the view.
     }
     

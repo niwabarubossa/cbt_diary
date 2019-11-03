@@ -13,10 +13,16 @@ class AutoThinkingSheetPageViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBOutlet weak var AutoThinkingFirstLabel: UILabel!
+    @IBOutlet weak var AutoThinkingSecondView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        AutoThinkingFirstLabel.layer.cornerRadius = 3
+        AutoThinkingFirstLabel.clipsToBounds = true
+        AutoThinkingSecondView.layer.cornerRadius = 3
+        AutoThinkingSecondView.clipsToBounds = true
     }
     
 

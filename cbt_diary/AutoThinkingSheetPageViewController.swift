@@ -9,18 +9,16 @@
 import UIKit
 
 class AutoThinkingSheetPageViewController: UIViewController {
-    @IBAction func DismissAutoThinking(_ sender: Any) {
+    
+    @IBAction func DismissSheet(_ sender: Any) {
+        print("clicked")
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBOutlet weak var AutoThinkingFirstLabel: UILabel!
     @IBOutlet weak var AutoThinkingSecondView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        AutoThinkingFirstLabel.layer.cornerRadius = 3
-        AutoThinkingFirstLabel.clipsToBounds = true
         AutoThinkingSecondView.layer.cornerRadius = 3
         AutoThinkingSecondView.clipsToBounds = true
     }

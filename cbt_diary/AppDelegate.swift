@@ -16,6 +16,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var viewControllers: [UIViewController] = []
+        
+        // 1ページ目になるViewController
+        let firstSB = UIStoryboard(name: "Home", bundle: nil)
+        let firstVC = firstSB.instantiateInitialViewController()! as UIViewController
+        firstVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
+        viewControllers.append(firstVC)
+        
+        // 2ページ目になるViewController
+        let secondSB = UIStoryboard(name: "CbtSheet", bundle: nil)
+        let secondVC = secondSB.instantiateInitialViewController()! as UIViewController
+        secondVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 2)
+        viewControllers.append(secondVC)
+        
+        // 3ページ目になるViewController
+        let thirdSB = UIStoryboard(name: "AboutCbt", bundle: nil)
+        let thirdVC = thirdSB.instantiateInitialViewController()! as UIViewController
+        thirdVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 3)
+        viewControllers.append(thirdVC)
+        
+        // ViewControllerをセット
+        let tabBarController = UITabBarController()
+        tabBarController.setViewControllers(viewControllers, animated: false)
+        
+        // rootViewControllerをUITabBarControllerにする
+        window = UIWindow()
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
         return true
     }
 

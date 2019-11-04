@@ -14,24 +14,28 @@ class AutoThinkingSheetPageViewController: UIViewController {
         print("clicked")
         self.dismiss(animated: true, completion: nil)
     }
-    
+    @IBOutlet weak var AutoThinkingFirstView: UIView!
     @IBOutlet weak var AutoThinkingSecondView: UIView!
+    @IBOutlet weak var AutoThinkingThirdView: UIView!
+    @IBOutlet weak var AutoThinkingFourthView: UIView!
+    @IBOutlet weak var AutoThinkingFifthView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AutoThinkingSecondView.layer.cornerRadius = 3
-        AutoThinkingSecondView.clipsToBounds = true
+        setUpUIView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setUpUIView(){
+        AutoThinkingFirstView.layer.cornerRadius = 3
+        AutoThinkingFirstView.clipsToBounds = true
+        AutoThinkingSecondView.layer.cornerRadius = 3
+        AutoThinkingSecondView.clipsToBounds = true
+        AutoThinkingThirdView.layer.cornerRadius = 3
+        AutoThinkingThirdView.clipsToBounds = true
+        AutoThinkingFourthView.layer.cornerRadius = 3
+        AutoThinkingFourthView.clipsToBounds = true
+        AutoThinkingFifthView.layer.cornerRadius = 3
+        AutoThinkingFifthView.clipsToBounds = true
     }
-    */
-
+    
 }

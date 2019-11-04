@@ -93,7 +93,7 @@
         <!--Top Page View Controller-->
         <scene sceneID="noW-Dk-8iT">
             <objects>
-                <viewController id="Af1-zr-PlR" customClass="TopPageViewController" customModule="cbt_diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="Af1-zr-PlR" customClass="TopPageViewController" customModule="cbt_diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Wm-ls-NtP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1181,23 +1181,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTA-1J-y23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-339" y="840"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="jIx-IY-vtr">
-            <objects>
-                <navigationController storyboardIdentifier="Home" id="NK9-sP-Qbi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="AnV-7T-w4f"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2ox-iU-51E">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Af1-zr-PlR" kind="relationship" relationship="rootViewController" id="sDM-zg-hXr"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eQ6-S6-Oed" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1141" y="840"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yJV-07-leK">

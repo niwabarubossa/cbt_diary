@@ -19,22 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var viewControllers: [UIViewController] = []
         
         // 1ページ目になるViewController
-        let firstSB = UIStoryboard(name: "Home", bundle: nil)
-        let firstVC = firstSB.instantiateInitialViewController()! as UIViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let firstVC = storyboard.instantiateViewController(withIdentifier: "Home")
         firstVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
         viewControllers.append(firstVC)
         
-        // 2ページ目になるViewController
-        let secondSB = UIStoryboard(name: "CbtSheet", bundle: nil)
-        let secondVC = secondSB.instantiateInitialViewController()! as UIViewController
-        secondVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 2)
+
+        let secondVC = storyboard.instantiateViewController(withIdentifier: "CbtSheet")
+        secondVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 2)
         viewControllers.append(secondVC)
         
-        // 3ページ目になるViewController
-        let thirdSB = UIStoryboard(name: "AboutCbt", bundle: nil)
-        let thirdVC = thirdSB.instantiateInitialViewController()! as UIViewController
-        thirdVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 3)
+        let thirdVC = storyboard.instantiateViewController(withIdentifier: "AboutCbt")
+        thirdVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 3)
         viewControllers.append(thirdVC)
+        
         
         // ViewControllerをセット
         let tabBarController = UITabBarController()

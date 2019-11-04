@@ -1147,7 +1147,11 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1600"/>
                     <connections>
-                        <outlet property="AutoThinkingSecondView" destination="2Ly-0X-bgA" id="m6E-83-Pas"/>
+                        <outlet property="AutoThinkingFifthView" destination="BpU-z1-N1h" id="mMZ-Ic-KfH"/>
+                        <outlet property="AutoThinkingFirstView" destination="2Ly-0X-bgA" id="PkM-Oc-bRy"/>
+                        <outlet property="AutoThinkingFourthView" destination="j6L-Vu-j5H" id="qPy-zR-aBp"/>
+                        <outlet property="AutoThinkingSecondView" destination="MgC-Hk-cHM" id="9wJ-vO-Irs"/>
+                        <outlet property="AutoThinkingThirdView" destination="gjD-qY-L5Q" id="y5C-oy-Pia"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCE-JT-e0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>

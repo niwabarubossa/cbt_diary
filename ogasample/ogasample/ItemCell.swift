@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ItemCell: UITableViewCell {
+class ItemCell1: UITableViewCell {
     @IBOutlet weak var icon: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var tags: UILabel!
+}
+
+class ItemCell2: UITableViewCell {
+    @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var count: UILabel!
 }

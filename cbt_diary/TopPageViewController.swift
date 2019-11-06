@@ -39,6 +39,10 @@ class TopPageViewController: UIViewController,UITableViewDelegate,UITableViewDat
 
     func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
         print("\(indexPath.section)番目のセルがタップされました")
+        let storyboard: UIStoryboard = self.storyboard!
+        print("\(models[indexPath.section].storyboardId)")
+        let second = storyboard.instantiateViewController(withIdentifier: models[indexPath.section].storyboardId)
+        self.present(second, animated: true, completion: nil)
     }
     
     

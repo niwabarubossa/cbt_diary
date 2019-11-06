@@ -13,6 +13,13 @@ class BehavioralExperiment: UIView {
     
     @IBOutlet weak var behaviorLabel: UILabel!
     
+    @IBOutlet weak var ExperimentalValue: UILabel!
+
+    @IBAction func IncrementExperimentalValue(_ sender: Any) {
+
+        let experimental_value = NumberFormatter().number(from: ExperimentalValue.text!) as! Int
+        ExperimentalValue.text = String(experimental_value + 1)
+    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadNib()

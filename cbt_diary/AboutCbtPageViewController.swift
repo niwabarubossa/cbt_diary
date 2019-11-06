@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AboutCbtPageViewController: UIViewController, UICollectionViewDataSource {
+class AboutCbtPageViewController: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate {
     
     let models = Model.createModels()
 
@@ -23,7 +23,6 @@ class AboutCbtPageViewController: UIViewController, UICollectionViewDataSource {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: collectionView.frame.width, height: 100)
         collectionView.collectionViewLayout = layout
-        print("\(models)")
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return models.count
@@ -38,5 +37,14 @@ class AboutCbtPageViewController: UIViewController, UICollectionViewDataSource {
         
         return cell
     }
+    
+     func collectionView(_ collectionView: UICollectionView,didHighlightItemAt indexPath: IndexPath){
+        print("\(indexPath)")
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        print("\(indexPath)")
+    }
+    
     
 }

@@ -15,6 +15,7 @@ class MyPageViewController: UIViewController,UITableViewDelegate,UITableViewData
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.backgroundColor = .clear
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         secondVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 2)
         viewControllers.append(secondVC)
         
-        let thirdVC = storyboard.instantiateViewController(withIdentifier: "AboutCbt")
+        let thirdVC = storyboard.instantiateViewController(withIdentifier: "MyPage")
         thirdVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 3)
         viewControllers.append(thirdVC)
         

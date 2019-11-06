@@ -8,16 +8,26 @@
 
 import UIKit
 
-class MyPageViewController: UIViewController {
-
+class MyPageViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.loadTemplate()
+        tableView.dataSource = self    //追加
+        tableView.delegate = self // 追加
     }
     
-    func loadTemplate(){
-        let view = Bundle.main.loadNibNamed("SheetCardView", owner: SheetCardView(), options: nil)?.first as! UIView
-        view.frame = self.view.bounds
-        self.view.addSubview(view)
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MyDiaryLogTableViewCell") as! MyDiaryLogTableViewCell
+        return cell
     }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        // Cellの高さを決める
+        
+        return 110
+    }
+
 }

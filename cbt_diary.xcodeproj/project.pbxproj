@@ -26,14 +26,13 @@
 		5449C7CB236EA4F2008BD6B0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */; };
 		5449C7CC236EA4F2008BD6B0 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */; };
 		5449C7CE236EA6A2008BD6B0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449C7CD236EA6A2008BD6B0 /* Model.swift */; };
-		5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B90E236BFAB400295F57 /* SheetCardView.swift */; };
-		5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5457B910236BFAC300295F57 /* SheetCardView.xib */; };
 		5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */; };
 		5468A4122369181600CD4AE1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A4112369181600CD4AE1 /* View.xib */; };
 		5468A4142369195800CD4AE1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A4132369195800CD4AE1 /* View.swift */; };
 		5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */; };
 		5468A418236922F400CD4AE1 /* BehavioralExperiment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */; };
 		5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A41923693AB100CD4AE1 /* TopPageViewController.swift */; };
+		54D3EAEF2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */; };
 		A322ECFD6F93C786E8103606 /* Pods_cbt_diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,14 +58,13 @@
 		5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		5449C7CD236EA6A2008BD6B0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5457B90E236BFAB400295F57 /* SheetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCardView.swift; sourceTree = "<group>"; };
-		5457B910236BFAC300295F57 /* SheetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetCardView.xib; sourceTree = "<group>"; };
 		5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoThinkingSheetPageViewController.swift; sourceTree = "<group>"; };
 		5468A4112369181600CD4AE1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5468A4132369195800CD4AE1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralExperiment.swift; sourceTree = "<group>"; };
 		5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BehavioralExperiment.xib; sourceTree = "<group>"; };
 		5468A41923693AB100CD4AE1 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
+		54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiaryLogTableViewCell.swift; sourceTree = "<group>"; };
 		5921CD0060BEDAC27283CF74 /* Pods-cbt_diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.debug.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.debug.xcconfig"; sourceTree = "<group>"; };
 		9D555DA2F09EA2B972E9B796 /* Pods-cbt_diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.release.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.release.xcconfig"; sourceTree = "<group>"; };
 		EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cbt_diary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,12 +133,11 @@
 				5441B4C12369AFBE003E2B15 /* PhotoViewController.swift */,
 				5441B4C32369B054003E2B15 /* RootViewController.swift */,
 				5441B4C52369B1E3003E2B15 /* HomePageViewController.swift */,
-				5457B90E236BFAB400295F57 /* SheetCardView.swift */,
-				5457B910236BFAC300295F57 /* SheetCardView.xib */,
 				5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */,
 				5449C7C9236EA4F2008BD6B0 /* CustomCell.swift */,
 				5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */,
 				5449C7CD236EA6A2008BD6B0 /* Model.swift */,
+				54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */,
 			);
 			path = cbt_diary;
 			sourceTree = "<group>";
@@ -219,7 +216,6 @@
 				542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */,
 				542F02D72367C15300C20E91 /* Assets.xcassets in Resources */,
 				542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */,
-				5457B911236BFAC300295F57 /* SheetCardView.xib in Resources */,
 				542F02E62367D76600C20E91 /* choushinki.png in Resources */,
 				542F02D52367C14F00C20E91 /* Main.storyboard in Resources */,
 				5449C7C8236E871E008BD6B0 /* test_background.jpg in Resources */,
@@ -278,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5468A4142369195800CD4AE1 /* View.swift in Sources */,
-				5457B90F236BFAB400295F57 /* SheetCardView.swift in Sources */,
 				5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */,
 				542F02D22367C14F00C20E91 /* ViewController.swift in Sources */,
 				5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */,
@@ -290,6 +285,7 @@
 				5441B4BC2369AE9C003E2B15 /* CbtSheetPageViewController.swift in Sources */,
 				5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */,
 				5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */,
+				54D3EAEF2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift in Sources */,
 				5441B4BE2369AEBB003E2B15 /* MyPageViewController.swift in Sources */,
 				5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */,
 				5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */,

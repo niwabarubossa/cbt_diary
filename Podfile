@@ -8,4 +8,10 @@ target 'cbt_diary' do
   # Pods for cbt_diary
   pod 'ESTabBarController'
   pod 'MaterialComponents/Cards'
+  pod 'Firebase/Analytics'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
 end

@@ -28,6 +28,7 @@
 		5449C7CE236EA6A2008BD6B0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449C7CD236EA6A2008BD6B0 /* Model.swift */; };
 		54507B8E2372C43000492F10 /* TopPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54507B8D2372C43000492F10 /* TopPageTableViewCell.swift */; };
 		54507B902372C75E00492F10 /* SheetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54507B8F2372C75E00492F10 /* SheetModel.swift */; };
+		54507B942373A4FF00492F10 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 54507B932373A4FE00492F10 /* GoogleService-Info .plist */; };
 		5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */; };
 		5468A4122369181600CD4AE1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A4112369181600CD4AE1 /* View.xib */; };
 		5468A4142369195800CD4AE1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A4132369195800CD4AE1 /* View.swift */; };
@@ -62,6 +63,7 @@
 		5449C7CD236EA6A2008BD6B0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		54507B8D2372C43000492F10 /* TopPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageTableViewCell.swift; sourceTree = "<group>"; };
 		54507B8F2372C75E00492F10 /* SheetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModel.swift; sourceTree = "<group>"; };
+		54507B932373A4FE00492F10 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
 		5457B912236D312B00295F57 /* AutoThinkingSheetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoThinkingSheetPageViewController.swift; sourceTree = "<group>"; };
 		5468A4112369181600CD4AE1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5468A4132369195800CD4AE1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		542F02CE2367C14F00C20E91 /* cbt_diary */ = {
 			isa = PBXGroup;
 			children = (
+				54507B932373A4FE00492F10 /* GoogleService-Info .plist */,
 				5449C7C7236E871E008BD6B0 /* test_background.jpg */,
 				5441B4BF2369AECE003E2B15 /* AboutCbtPageViewController.swift */,
 				542F02CF2367C14F00C20E91 /* AppDelegate.swift */,
@@ -220,6 +223,7 @@
 				5468A4122369181600CD4AE1 /* View.xib in Resources */,
 				5449C7CC236EA4F2008BD6B0 /* CustomCell.xib in Resources */,
 				542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */,
+				54507B942373A4FF00492F10 /* GoogleService-Info .plist in Resources */,
 				542F02D72367C15300C20E91 /* Assets.xcassets in Resources */,
 				542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */,
 				542F02E62367D76600C20E91 /* choushinki.png in Resources */,

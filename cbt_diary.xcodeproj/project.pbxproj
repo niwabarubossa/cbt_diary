@@ -34,6 +34,9 @@
 		5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */; };
 		5468A418236922F400CD4AE1 /* BehavioralExperiment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */; };
 		5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468A41923693AB100CD4AE1 /* TopPageViewController.swift */; };
+		54A28AA12373BAC9002063F1 /* KeepRecordingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A28AA02373BAC9002063F1 /* KeepRecordingPageViewController.swift */; };
+		54A28AA42373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A28AA22373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.swift */; };
+		54A28AA52373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54A28AA32373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.xib */; };
 		54D3EAEF2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */; };
 		A322ECFD6F93C786E8103606 /* Pods_cbt_diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE99A88DEDA5F9E4BE875D92 /* Pods_cbt_diary.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +71,9 @@
 		5468A415236922E100CD4AE1 /* BehavioralExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralExperiment.swift; sourceTree = "<group>"; };
 		5468A417236922F400CD4AE1 /* BehavioralExperiment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BehavioralExperiment.xib; sourceTree = "<group>"; };
 		5468A41923693AB100CD4AE1 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
+		54A28AA02373BAC9002063F1 /* KeepRecordingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepRecordingPageViewController.swift; sourceTree = "<group>"; };
+		54A28AA22373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralExperimentCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		54A28AA32373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BehavioralExperimentCellCollectionViewCell.xib; sourceTree = "<group>"; };
 		54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiaryLogTableViewCell.swift; sourceTree = "<group>"; };
 		5921CD0060BEDAC27283CF74 /* Pods-cbt_diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.debug.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.debug.xcconfig"; sourceTree = "<group>"; };
 		9D555DA2F09EA2B972E9B796 /* Pods-cbt_diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cbt_diary.release.xcconfig"; path = "Target Support Files/Pods-cbt_diary/Pods-cbt_diary.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +150,9 @@
 				5449C7CA236EA4F2008BD6B0 /* CustomCell.xib */,
 				5449C7CD236EA6A2008BD6B0 /* Model.swift */,
 				54D3EAEE2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift */,
+				54A28AA02373BAC9002063F1 /* KeepRecordingPageViewController.swift */,
+				54A28AA22373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.swift */,
+				54A28AA32373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.xib */,
 			);
 			path = cbt_diary;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 				5449C7CC236EA4F2008BD6B0 /* CustomCell.xib in Resources */,
 				542F02DA2367C15300C20E91 /* LaunchScreen.storyboard in Resources */,
 				542F02D72367C15300C20E91 /* Assets.xcassets in Resources */,
+				54A28AA52373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.xib in Resources */,
 				542F02EA2367DA6000C20E91 /* trap_sample.png in Resources */,
 				542F02E62367D76600C20E91 /* choushinki.png in Resources */,
 				542F02D52367C14F00C20E91 /* Main.storyboard in Resources */,
@@ -282,6 +292,7 @@
 				5468A4142369195800CD4AE1 /* View.swift in Sources */,
 				5468A41A23693AB100CD4AE1 /* TopPageViewController.swift in Sources */,
 				542F02D22367C14F00C20E91 /* ViewController.swift in Sources */,
+				54A28AA12373BAC9002063F1 /* KeepRecordingPageViewController.swift in Sources */,
 				5441B4C42369B055003E2B15 /* RootViewController.swift in Sources */,
 				54507B8E2372C43000492F10 /* TopPageTableViewCell.swift in Sources */,
 				542F02D02367C14F00C20E91 /* AppDelegate.swift in Sources */,
@@ -294,6 +305,7 @@
 				5441B4C62369B1E4003E2B15 /* HomePageViewController.swift in Sources */,
 				5468A416236922E100CD4AE1 /* BehavioralExperiment.swift in Sources */,
 				54D3EAEF2372596100FF0FF8 /* MyDiaryLogTableViewCell.swift in Sources */,
+				54A28AA42373BDEA002063F1 /* BehavioralExperimentCellCollectionViewCell.swift in Sources */,
 				5441B4BE2369AEBB003E2B15 /* MyPageViewController.swift in Sources */,
 				5457B913236D312B00295F57 /* AutoThinkingSheetPageViewController.swift in Sources */,
 				5441B4C22369AFBE003E2B15 /* PhotoViewController.swift in Sources */,

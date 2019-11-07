@@ -19,5 +19,10 @@ class BehavioralExperimentCellCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        ExperimentalValue.text = "0"
+    }
 
 }

@@ -18,6 +18,7 @@ class KeepRecordingPageViewController: UIViewController {
         
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal // 横スクロール
+        layout.minimumLineSpacing = 0
         collectionView.collectionViewLayout = layout
         collectionView.isPagingEnabled = true
         layout.itemSize = CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
